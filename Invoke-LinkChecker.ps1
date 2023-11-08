@@ -1,7 +1,7 @@
 ﻿
 <#PSScriptInfo
 
-.VERSION 1.0.3
+.VERSION 1.0.4
 
 .GUID 4af1455f-a896-4209-a17c-b8750b80859c
 
@@ -26,6 +26,9 @@
 .EXTERNALSCRIPTDEPENDENCIES
 
 .RELEASENOTES
+    - 1.0.4
+        - Update DESCRIPTION.
+
     - 1.0.3
         - Update DESCRIPTION.
 
@@ -33,7 +36,7 @@
         - Add more description on the script.
 
     - 1.0.1
-        - Change `iconUrl` to GitHub Repo itself.
+        - Change iconUrl to GitHub Repo itself.
 
     - 1.0.0
         - Initial release.
@@ -58,11 +61,11 @@
 
         pip3 install linkchecker
 
-    3. 安裝 `Invoke-LinkChecker.ps1` 腳本
+    3. 安裝 Invoke-LinkChecker.ps1 腳本
 
         Install-Script -Name Invoke-LinkChecker
 
-    4. 執行
+    4. 執行  Invoke-LinkChecker 腳本
 
         Invoke-LinkChecker -Url "https://example.com" -v -NoRobots
 

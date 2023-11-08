@@ -1,5 +1,8 @@
 # Release Notes
 
+* 1.0.4
+  * Update DESCRIPTION.
+
 * 1.0.3
   * Update DESCRIPTION.
 
