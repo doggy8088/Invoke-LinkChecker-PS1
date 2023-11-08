@@ -1,7 +1,7 @@
 ﻿
 <#PSScriptInfo
 
-.VERSION 1.0.1
+.VERSION 1.0.2
 
 .GUID 4af1455f-a896-4209-a17c-b8750b80859c
 
@@ -26,11 +26,14 @@
 .EXTERNALSCRIPTDEPENDENCIES
 
 .RELEASENOTES
-- 1.0.1
-  - Change `iconUrl` to GitHub Repo itself.
+    - 1.0.2
+        - Add more description on the script.
 
-- 1.0.0
-  - Initial release.
+    - 1.0.1
+        - Change `iconUrl` to GitHub Repo itself.
+
+    - 1.0.0
+        - Initial release.
 
 .PRIVATEDATA
 
@@ -38,11 +41,35 @@
 
 <#
 
-.DESCRIPTION
- 一個用於執行 linkchecker 命令的 PowerShell 函式，使用指定的參數。
-
 .SYNOPSIS
     一個用於執行 linkchecker 命令的 PowerShell 函式，使用指定的參數。
+
+.DESCRIPTION
+    一個用於執行 linkchecker 命令的 PowerShell 函式，使用指定的參數。
+
+    安裝步驟
+
+    1. 先安裝 Python 3.8 以上版本
+
+    2. 安裝 linkchecker 工具
+
+        ```sh
+        pip3 install linkchecker
+        ```
+
+    3. 安裝 `Invoke-LinkChecker.ps1` 腳本
+
+        ```ps1
+        Install-Script -Name Invoke-LinkChecker
+        ```
+
+    4. 執行
+
+        ```ps1
+        Invoke-LinkChecker -Url "https://example.com" -v -NoRobots
+        ```
+
+    > GitHub Repo: https://github.com/doggy8088/Invoke-LinkChecker-PS1
 
 .PARAMETER Url
     要檢查的 URL。

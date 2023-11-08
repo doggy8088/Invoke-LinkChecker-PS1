@@ -1,5 +1,8 @@
 # Release Notes
 
+* 1.0.2
+  * Add more description on the script.
+
 * 1.0.1
   * Change `iconUrl` to GitHub Repo itself.
 
