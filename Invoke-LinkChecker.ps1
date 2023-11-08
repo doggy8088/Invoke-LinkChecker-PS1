@@ -1,7 +1,7 @@
 ﻿
 <#PSScriptInfo
 
-.VERSION 1.0.2
+.VERSION 1.0.3
 
 .GUID 4af1455f-a896-4209-a17c-b8750b80859c
 
@@ -26,6 +26,9 @@
 .EXTERNALSCRIPTDEPENDENCIES
 
 .RELEASENOTES
+    - 1.0.3
+        - Update DESCRIPTION.
+
     - 1.0.2
         - Add more description on the script.
 
@@ -53,23 +56,17 @@
 
     2. 安裝 linkchecker 工具
 
-        ```sh
         pip3 install linkchecker
-        ```
 
     3. 安裝 `Invoke-LinkChecker.ps1` 腳本
 
-        ```ps1
         Install-Script -Name Invoke-LinkChecker
-        ```
 
     4. 執行
 
-        ```ps1
         Invoke-LinkChecker -Url "https://example.com" -v -NoRobots
-        ```
 
-    > GitHub Repo: https://github.com/doggy8088/Invoke-LinkChecker-PS1
+    GitHub Repo: https://github.com/doggy8088/Invoke-LinkChecker-PS1
 
 .PARAMETER Url
     要檢查的 URL。
