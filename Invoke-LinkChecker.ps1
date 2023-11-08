@@ -1,7 +1,7 @@
 ﻿
 <#PSScriptInfo
 
-.VERSION 1.0.0
+.VERSION 1.0.1
 
 .GUID 4af1455f-a896-4209-a17c-b8750b80859c
 
@@ -17,7 +17,7 @@
 
 .PROJECTURI https://github.com/doggy8088/Invoke-LinkChecker-PS1
 
-.ICONURI https://github.com/doggy8088/Learn-Git-in-30-days/assets/88981/5b488410-c647-433d-9135-fbd409a11254
+.ICONURI https://raw.githubusercontent.com/doggy8088/Invoke-LinkChecker-PS1/main/icon.jpg
 
 .EXTERNALMODULEDEPENDENCIES
 
@@ -26,7 +26,11 @@
 .EXTERNALSCRIPTDEPENDENCIES
 
 .RELEASENOTES
-Initial release
+- 1.0.1
+  - Change `iconUrl` to GitHub Repo itself.
+
+- 1.0.0
+  - Initial release.
 
 .PRIVATEDATA
 
